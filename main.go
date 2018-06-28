@@ -5,4 +5,6 @@ func main() {
 	cards.saveToFile("godpdf")
 	cards2 := newDeckFromFile("godpdf")
 	cards2.print()
+	cards2.shuffle()
+	cards2.print()
 }
